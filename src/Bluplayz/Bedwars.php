@@ -1508,7 +1508,6 @@ class BWRefreshSigns extends Task {
     public function __construct(Bedwars $plugin) {
         $this->plugin = $plugin;
         $this->prefix = $this->plugin->prefix;
-        parent::__construct($plugin);
     }
 
     public function onRun($tick) {
